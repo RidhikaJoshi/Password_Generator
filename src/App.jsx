@@ -61,7 +61,7 @@ function App() {
           </div>
       {/* // Password strength */}
           <div className="h-2/5 w-5/6  rounded-lg flex flex-row flex-wrap justify-evenly items-center" >
-                  <input type="range" min={6} max={100} value={length} className='cursor-pointer' onChange={(e)=>setlength(e.target.value)}/> 
+                  <input type="range" min={6} max={50} value={length} className='cursor-pointer' onChange={(e)=>setlength(e.target.value)}/> 
                   <label className='mr-2'>Length: {length}</label>
               <div className="mb-[0.125rem] mr-2 inline-block min-h-[1.5rem] pl-[0.5rem]">
                   <input
